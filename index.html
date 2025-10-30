@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
   <meta charset="utf-8">
   <title>Google Search</title>
@@ -7,14 +7,15 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="top">
-    <a href="images.html">Obrázky</a>
-    <a href="advanced.html">Pokročilé vyhledávání</a>
-  </div>
+  <header class="top">
+    <nav>
+      <a href="images.html">Obrázky</a>
+      <a href="advanced.html">Pokročilé vyhledávání</a>
+    </nav>
+  </header>
 
-  <div class="wrap">
+  <main class="wrap">
     <h1>Google</h1>
-
     <form action="https://www.google.com/search">
       <input name="q" class="text" placeholder="Hledat...">
       <div class="buttons">
@@ -22,6 +23,21 @@
         <input type="submit" name="btnI" value="I'm Feeling Lucky">
       </div>
     </form>
-  </div>
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjirisulc-jurik.github.io/Google-Search%2Fhtml%2F">
+        <img style="border:0;width:88px;height:31px"
+            src="https://www.w3.org/Icons/valid-html32-blue"
+            alt="Ověřit HTML!">
+      </a>
+      <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjirisulc-jurik.github.io/Google-Search%2Fhtml%2F">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Ověřit CSS!">
+      </a>
+    </p>
+  </footer>
 </body>
 </html>
